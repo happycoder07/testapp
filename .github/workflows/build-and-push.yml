@@ -30,7 +30,7 @@ jobs:
         context: .
         file: Dockerfile
         push: false  # Change this to `true` if you want to push the image in this step
-        tags: happycoder07/myreactapp:latest  # Replace with your Docker Hub repo and tag
+        tags: happycoder07/apprepo:latest  # Replace with your Docker Hub repo and tag
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
@@ -44,4 +44,4 @@ jobs:
         context: .
         file: Dockerfile
         push: true  # Change this to `false` if you only want to build the image
-        tags: happycoder07/myreactapp:latest  # Replace with your Docker Hub repo and tag
+        tags: happycoder07/apprepo:latest  # Replace with your Docker Hub repo and tag
