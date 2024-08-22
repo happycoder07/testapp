@@ -44,4 +44,4 @@ jobs:
         context: .
         file: Dockerfile
         push: true  # Change this to `false` if you only want to build the image
-        tags: myusername/myreactapp:latest  # Replace with your Docker Hub repo and tag
+        tags: happycoder07/myreactapp:latest  # Replace with your Docker Hub repo and tag
